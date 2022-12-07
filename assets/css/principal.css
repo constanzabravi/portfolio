@@ -16,7 +16,7 @@ header{
     transition: all 0.3s ease 0s;
     width: 100%;
     z-index: 10;
-    background-color: var(--ligth_purple);
+    background-color: var(--light_);
     left: 50%;
     transform: translateX(-50%);
 }
@@ -156,7 +156,7 @@ header nav{
 .title_five{
     font-size: 31px;
     font-weight: 500;
-    color: var(--gray);
+    color: var(--purple);
 }
 
 .typed-cursor{
@@ -179,15 +179,15 @@ header nav{
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
-    border: double 2px transparent;
+    background-image: linear-gradient(to right, #bd1bea 0%, #d9bbe6 100%), radial-gradient(circle at top left, #bd1bea, #d9bbe6);
+    border: double 2px;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .contact_me_button:hover{
     background-image: var(--light);
-    border: solid 2px var(--indigo);
+    border: solid 2px var(--light_dark);
     color: var(--dark);
 }
 
@@ -199,15 +199,14 @@ header nav{
     text-align: center;
     color: var(--dark);
     border-radius: 5px;
-    border: 2px solid var(--indigo);
+    border: 2px solid var(--light_dark);
     color: var(--black);
     cursor: pointer;
 }
 
 .download_button:hover{
-    border-color: transparent;
     color: var(--light);
-    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    background-image: linear-gradient(to right, #bd1bea 0%, #d9bbe6 100%), radial-gradient(circle at top left, #bd1bea, #d9bbe6);
 }
 
 .principal_two{

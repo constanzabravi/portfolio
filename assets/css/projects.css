@@ -28,13 +28,13 @@
     flex-direction: column;
     width: 430px;
     height: 450px;
-    background-color: var(--lila);
+    background-color: var(--light_dark);
     border-radius: 20px;
     box-shadow: rgb(160 174 192 / 60%) 0px 4px 6px;
 }
 
 .container_title{
-    background-color: var(--ligth_purple);
+    background-color: var(--light_purple);
     margin-bottom: 15px;
     width: 100%;
     padding: 20px 0;
@@ -100,7 +100,7 @@
     width: 198px;
     height: 74px;
     padding: 0 20px;
-    background-color: var(--purple);
+    background-color: var(--light_dark);
     position: absolute;
     border-radius: 0 10px 10px 0;
     left: -250px;

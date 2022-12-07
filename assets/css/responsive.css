@@ -43,7 +43,7 @@ header{
   .nav_burguer-line-2,
   .nav_burguer-line-3 {
     display: block;
-    background-color: var(--purple);
+    background-color: var(--dark);
     content: "";
     height: 6px;
     border-radius: 3px;
@@ -75,7 +75,7 @@ header{
     top: 0;
     z-index: 3;
     left: -350px;
-    background-color: var(--ligth_purple);
+    background-color: var(--light_dark);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
     transition: all 0.3s ease 0s;
     border-radius: 0 10px 10px 0;
